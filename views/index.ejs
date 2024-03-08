@@ -1,0 +1,42 @@
+<%- include("partial/header.ejs") %>
+    <div class="outer">
+        <div class="border">
+            <h1 class="title">WELCOME</h1>
+            <div class="mid">
+
+                
+                <form action="/compose" method="post">
+                    <div class="form-group">
+                        <label for="Name">Name:</label>
+                        <input type="text" id="Name" name="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">PhoneNumber:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country:</label>
+                        <select id="country" name="country" required>
+                            <option value="">Select Country</option>
+                            <option value="India">India</option>
+                            <option value="Japan">Japan</option>
+                            <option value="USA">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">UK</option>
+                            <option value="UK">Russia</option>
+
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" value="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include("partial/footer.ejs") %>

@@ -1,0 +1,8 @@
+1.post-
+create
+view
+update
+delete
+(by database)
+2.
+1 ejs file for all blogs 
