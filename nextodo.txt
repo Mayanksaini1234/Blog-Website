@@ -4,5 +4,5 @@ view
 update
 delete
 (by database)
-2.
-1 ejs file for all blogs 
+2.1 ejs file for all blogs 
+3.include the capitalized concept of whole name in the compose section .

@@ -58,6 +58,7 @@ app.get("/our_blogs_cloud", (req, res) => {
 
 // a (anchor tag -> href  ==> allow for only [get] request) but there is a jugad for post aLSO...
 // form->action ==> allow for any of post or get request ...
+// req.body ony works with post method 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
